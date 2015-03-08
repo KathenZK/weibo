@@ -26,7 +26,7 @@
 		0483ABE51AA4990700269A88 /* 603564546.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0483ABCC1AA4990700269A88 /* 603564546.jpeg */; };
 		0483ABE61AA4990700269A88 /* 6289891986.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0483ABCD1AA4990700269A88 /* 6289891986.jpeg */; };
 		0483ABE71AA4990700269A88 /* 926680527.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0483ABCE1AA4990700269A88 /* 926680527.jpeg */; };
-		0483ABE81AA4990700269A88 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0483ABCF1AA4990700269A88 /* statuses.plist */; };
+		0483ABE81AA4990700269A88 /* dataModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0483ABCF1AA4990700269A88 /* dataModel.plist */; };
 		0483ABEB1AA49ACE00269A88 /* FrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483ABEA1AA49ACE00269A88 /* FrameModel.m */; };
 		0483ABEE1AA4AAAD00269A88 /* ModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483ABED1AA4AAAD00269A88 /* ModelCell.m */; };
 /* End PBXBuildFile section */
@@ -68,7 +68,7 @@
 		0483ABCC1AA4990700269A88 /* 603564546.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 603564546.jpeg; sourceTree = "<group>"; };
 		0483ABCD1AA4990700269A88 /* 6289891986.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6289891986.jpeg; sourceTree = "<group>"; };
 		0483ABCE1AA4990700269A88 /* 926680527.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 926680527.jpeg; sourceTree = "<group>"; };
-		0483ABCF1AA4990700269A88 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		0483ABCF1AA4990700269A88 /* dataModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataModel.plist; sourceTree = "<group>"; };
 		0483ABE91AA49ACE00269A88 /* FrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameModel.h; sourceTree = "<group>"; };
 		0483ABEA1AA49ACE00269A88 /* FrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameModel.m; sourceTree = "<group>"; };
 		0483ABEC1AA4AAAD00269A88 /* ModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCell.h; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 			children = (
 				0483ABB51AA4990700269A88 /* icon */,
 				0483ABC31AA4990700269A88 /* image */,
-				0483ABCF1AA4990700269A88 /* statuses.plist */,
+				0483ABCF1AA4990700269A88 /* dataModel.plist */,
 				0483AB801AA4965C00269A88 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -312,7 +312,7 @@
 				0483ABE61AA4990700269A88 /* 6289891986.jpeg in Resources */,
 				0483ABDA1AA4990700269A88 /* 424324.jpeg in Resources */,
 				0483ABE71AA4990700269A88 /* 926680527.jpeg in Resources */,
-				0483ABE81AA4990700269A88 /* statuses.plist in Resources */,
+				0483ABE81AA4990700269A88 /* dataModel.plist in Resources */,
 				0483ABD71AA4990700269A88 /* 1.jpeg in Resources */,
 				0483ABD81AA4990700269A88 /* 1516159990.jpeg in Resources */,
 				0483AB8B1AA4965C00269A88 /* Main.storyboard in Resources */,
@@ -536,6 +536,7 @@
 				0483ABA11AA4965C00269A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0483ABA21AA4965C00269A88 /* Build configuration list for PBXNativeTarget "weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				0483ABA41AA4965C00269A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

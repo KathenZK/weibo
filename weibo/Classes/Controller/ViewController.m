@@ -26,7 +26,7 @@
 - (NSArray *)frameModels
 {
     if (!_frameModels) {
-        NSString *path = [[NSBundle mainBundle]pathForResource:@"statuses.plist" ofType:nil];
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"dataModel.plist" ofType:nil];
         NSArray *dicArr = [NSArray arrayWithContentsOfFile:path];
         NSMutableArray *frameModels = [NSMutableArray array];
         for (NSDictionary *dic in dicArr) {
